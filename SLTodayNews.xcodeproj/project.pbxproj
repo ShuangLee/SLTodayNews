@@ -10,7 +10,6 @@
 		AF3B84D51E02DF951E1A378A /* Pods_SLTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98909A71F32C324682749C66 /* Pods_SLTodayNews.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C47C12501DD33355006BAB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C124F1DD33355006BAB04 /* AppDelegate.swift */; };
 		C47C12571DD33355006BAB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47C12561DD33355006BAB04 /* Assets.xcassets */; };
-		C47C125A1DD33355006BAB04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47C12581DD33355006BAB04 /* LaunchScreen.storyboard */; };
 		C47C12851DD44CC5006BAB04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12841DD44CC5006BAB04 /* BaseViewController.swift */; };
 		C47C12871DD44CDE006BAB04 /* SLNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12861DD44CDE006BAB04 /* SLNavigationViewController.swift */; };
 		C47C12891DD44CF4006BAB04 /* SLTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12881DD44CF4006BAB04 /* SLTabBarController.swift */; };
@@ -45,7 +44,6 @@
 		C47C124C1DD33355006BAB04 /* SLTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47C124F1DD33355006BAB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47C12561DD33355006BAB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C47C12591DD33355006BAB04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C47C125B1DD33355006BAB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C47C12601DD33355006BAB04 /* SLTodayNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTodayNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47C126B1DD33355006BAB04 /* SLTodayNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLTodayNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +111,6 @@
 				C47C127D1DD44B73006BAB04 /* Classes */,
 				C47C124F1DD33355006BAB04 /* AppDelegate.swift */,
 				C47C12561DD33355006BAB04 /* Assets.xcassets */,
-				C47C12581DD33355006BAB04 /* LaunchScreen.storyboard */,
 				C47C125B1DD33355006BAB04 /* Info.plist */,
 			);
 			path = SLTodayNews;
@@ -425,7 +422,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47C125A1DD33355006BAB04 /* LaunchScreen.storyboard in Resources */,
 				C47C12571DD33355006BAB04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,17 +537,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		C47C12581DD33355006BAB04 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C47C12591DD33355006BAB04 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		C47C12721DD33355006BAB04 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -651,6 +636,7 @@
 			baseConfigurationReference = 66B3CCA1378A1313DD990A49 /* Pods-SLTodayNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLTodayNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -665,6 +651,7 @@
 			baseConfigurationReference = E06F499CFB9EEAE2E9CBAA71 /* Pods-SLTodayNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = SLTodayNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

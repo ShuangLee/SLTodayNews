@@ -14,7 +14,7 @@ class SLNavigationViewController: UINavigationController {
         // 隐藏阴影线
         bar.shadowImage = UIImage()
         bar.isTranslucent = true
-        
+
         // 设置导航条标题字体大小和颜色
         bar.titleTextAttributes = [NSFontAttributeName : UIFont.systemFont(ofSize: 17),NSForegroundColorAttributeName: UIColor.white]
         bar.tintColor = SLColor(0, g: 0, b: 0, a: 0.7)
