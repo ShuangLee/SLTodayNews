@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF3B84D51E02DF951E1A378A /* Pods_SLTodayNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98909A71F32C324682749C66 /* Pods_SLTodayNews.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C4770A571DD9876800E61BE6 /* ADFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4770A561DD9876800E61BE6 /* ADFileManager.swift */; };
 		C47C12501DD33355006BAB04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C124F1DD33355006BAB04 /* AppDelegate.swift */; };
 		C47C12571DD33355006BAB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C47C12561DD33355006BAB04 /* Assets.xcassets */; };
 		C47C12851DD44CC5006BAB04 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12841DD44CC5006BAB04 /* BaseViewController.swift */; };
@@ -19,6 +20,9 @@
 		C47C129D1DD44DD3006BAB04 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C129C1DD44DD3006BAB04 /* MineViewController.swift */; };
 		C47C129F1DD4500E006BAB04 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C129E1DD4500E006BAB04 /* NewFeatureViewController.swift */; };
 		C47C12A21DD452B3006BAB04 /* SLConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12A11DD452B3006BAB04 /* SLConst.swift */; };
+		C47C12A51DD48C47006BAB04 /* AdvertiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12A41DD48C47006BAB04 /* AdvertiseViewController.swift */; };
+		C47C12A71DD48C57006BAB04 /* AdvertiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C12A61DD48C57006BAB04 /* AdvertiseView.swift */; };
+		C47C12A91DD48ECA006BAB04 /* AdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C47C12A81DD48EC9006BAB04 /* AdvertiseView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,7 @@
 /* Begin PBXFileReference section */
 		66B3CCA1378A1313DD990A49 /* Pods-SLTodayNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTodayNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLTodayNews/Pods-SLTodayNews.debug.xcconfig"; sourceTree = "<group>"; };
 		98909A71F32C324682749C66 /* Pods_SLTodayNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLTodayNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4770A561DD9876800E61BE6 /* ADFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADFileManager.swift; sourceTree = "<group>"; };
 		C47C124C1DD33355006BAB04 /* SLTodayNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLTodayNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47C124F1DD33355006BAB04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C47C12561DD33355006BAB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +61,9 @@
 		C47C129C1DD44DD3006BAB04 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		C47C129E1DD4500E006BAB04 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
 		C47C12A11DD452B3006BAB04 /* SLConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLConst.swift; sourceTree = "<group>"; };
+		C47C12A41DD48C47006BAB04 /* AdvertiseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiseViewController.swift; sourceTree = "<group>"; };
+		C47C12A61DD48C57006BAB04 /* AdvertiseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertiseView.swift; sourceTree = "<group>"; };
+		C47C12A81DD48EC9006BAB04 /* AdvertiseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvertiseView.xib; sourceTree = "<group>"; };
 		E06F499CFB9EEAE2E9CBAA71 /* Pods-SLTodayNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLTodayNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLTodayNews/Pods-SLTodayNews.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -288,6 +296,10 @@
 		C47C12A31DD46876006BAB04 /* Advertisement */ = {
 			isa = PBXGroup;
 			children = (
+				C47C12A41DD48C47006BAB04 /* AdvertiseViewController.swift */,
+				C47C12A61DD48C57006BAB04 /* AdvertiseView.swift */,
+				C47C12A81DD48EC9006BAB04 /* AdvertiseView.xib */,
+				C4770A561DD9876800E61BE6 /* ADFileManager.swift */,
 			);
 			path = Advertisement;
 			sourceTree = "<group>";
@@ -422,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47C12A91DD48ECA006BAB04 /* AdvertiseView.xib in Resources */,
 				C47C12571DD33355006BAB04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,11 +508,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C47C12A71DD48C57006BAB04 /* AdvertiseView.swift in Sources */,
 				C47C12991DD44DBE006BAB04 /* VideoViewController.swift in Sources */,
 				C47C129D1DD44DD3006BAB04 /* MineViewController.swift in Sources */,
 				C47C12501DD33355006BAB04 /* AppDelegate.swift in Sources */,
 				C47C12891DD44CF4006BAB04 /* SLTabBarController.swift in Sources */,
 				C47C12871DD44CDE006BAB04 /* SLNavigationViewController.swift in Sources */,
+				C47C12A51DD48C47006BAB04 /* AdvertiseViewController.swift in Sources */,
+				C4770A571DD9876800E61BE6 /* ADFileManager.swift in Sources */,
 				C47C12851DD44CC5006BAB04 /* BaseViewController.swift in Sources */,
 				C47C12971DD44DAB006BAB04 /* HomeViewController.swift in Sources */,
 				C47C129F1DD4500E006BAB04 /* NewFeatureViewController.swift in Sources */,

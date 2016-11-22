@@ -15,6 +15,7 @@ public let NewFeatureViewControllerDidFinishedGuide = "NewFeatureViewControllerD
 public let AdvertiseImageLoadSuccess = "AdvertiseImageLoadSuccess"
 // MARK: - 加载广告页失败
 public let AdvertiseImageLoadFailure = "AdvertiseImageLoadFailure"
+public let AdvertisePushNotification = "AdvertisePushNotification"
 
 /// 屏幕的宽
 let SCREENW = UIScreen.main.bounds.size.width

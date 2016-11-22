@@ -45,6 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if isNewUpdate() {
              window?.rootViewController = NewFeatureViewController()
         } else {
+            window?.rootViewController = SLTabBarController()
             loadADViewController()
         }
     }
@@ -57,7 +58,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      3.有则下载并删除旧广告缓存
      */
     private func loadADViewController() {
-
+        let adView = AdvertiseView.advertiseView()
+        adView.show()
     }
     
     /**

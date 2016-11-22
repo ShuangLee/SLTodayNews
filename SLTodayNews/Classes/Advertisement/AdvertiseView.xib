@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdvertiseView" customModule="SLTodayNews" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4Ml-12-axi"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Shu-ia-fAH">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="跳过3s">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4Ml-12-axi" secondAttribute="trailing" id="1fD-jh-Rh8"/>
+                <constraint firstAttribute="trailing" secondItem="Shu-ia-fAH" secondAttribute="trailing" constant="10" id="Cxq-l6-boX"/>
+                <constraint firstItem="4Ml-12-axi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GGz-TJ-NKU"/>
+                <constraint firstItem="Shu-ia-fAH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="d7n-vD-fM6"/>
+                <constraint firstAttribute="bottom" secondItem="4Ml-12-axi" secondAttribute="bottom" id="gNh-ax-1JD"/>
+                <constraint firstItem="4Ml-12-axi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h7T-qJ-8Xa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="adImageView" destination="4Ml-12-axi" id="gI3-hg-xot"/>
+                <outlet property="countDownButton" destination="Shu-ia-fAH" id="8Uf-80-HIA"/>
+            </connections>
+        </view>
+    </objects>
+</document>
